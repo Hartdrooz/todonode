@@ -1,0 +1,11 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name:  todoapp-svc
+spec:
+  selector:
+    app:  todoapp
+  type:  ClusterIP
+  ports:
+  - port:  80
+    targetPort:  5000
