@@ -6,7 +6,10 @@ class DataMemoryService {
         this.ids = 3;
     }
     all(){
-        return this.todos;
+        console.log(this.todos);
+        return new Promise((resolve,reject) => {
+            resolve(this.todos);
+        });        
     }
     add(todo){
         todo.id = this.ids;
@@ -15,3 +18,5 @@ class DataMemoryService {
     }
     update(){}
 }
+
+module.exports = DataMemoryService;
