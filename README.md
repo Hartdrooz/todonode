@@ -1,0 +1,1 @@
+# This node app is used to install on App Service or Virtual Machine to test some POC in Azure
