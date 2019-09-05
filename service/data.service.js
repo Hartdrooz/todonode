@@ -1,0 +1,7 @@
+
+
+class DataService {
+    constructor(config){
+        
+    }
+}
